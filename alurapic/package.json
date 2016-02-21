@@ -1,0 +1,24 @@
+{
+  "name": "alurapic",
+  "version": "1.0.0",
+  "description": "Backend alurapic",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunobc/alurapic-back.git"
+  },
+  "author": "brunobc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunobc/alurapic-back/issues"
+  },
+  "homepage": "https://github.com/brunobc/alurapic-back#readme",
+  "dependencies": {
+    "consign": "^0.1.2",
+    "express": "^4.13.4"
+  }
+}
