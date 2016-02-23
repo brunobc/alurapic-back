@@ -15,4 +15,14 @@ api.buscaPorId = function (req, res) {
     res.json(foto);
 };
 
+api.removePorId = function(req, res) {
+
+    // criando uma nova lista sem a foto com o ID procurado
+    fotos = fotos.filter(function(foto) {
+        return foto._id != req.params.id;
+    });
+
+    res.sendStatus(204);
+};
+
 module.exports = api;
