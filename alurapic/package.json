@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/brunobc/alurapic-back#readme",
   "dependencies": {
+    "body-parser": "^1.15.0",
     "consign": "^0.1.2",
     "express": "^4.13.4"
   }
